@@ -1,0 +1,152 @@
+.footer-badges- {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+#emails_error_header {
+    display: none;
+}
+
+#domain_error_header {
+    display: none;
+}
+
+#comp_domain_error_header {
+    display: none;
+}
+
+#keyword_error_header {
+    display: none;
+}
+
+.grecaptcha-badge {
+    bottom: 82px;
+}
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    .hero-card-web1 {
+        position: relative;
+        overflow: hidden;
+        padding-top: 82px;
+        padding-bottom: 72px;
+        height: 65vh;
+        align-items: center;
+        display: flex;
+        margin-left: -150px
+    }
+    .headerclient {
+        padding-top: 14px;
+        padding-bottom: 0px;
+    }
+    .computer {
+        margin-left: -240px;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    .pb1 {
+        padding-top: 7px;
+        padding-bottom: 102px;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    .image-sr-mm1 {
+        width: 100%;
+        height: 130px;
+        padding-top: 7px;
+    }
+    .computer {
+        margin-left: -210px !important;
+    }
+}
+
+.client-logo {
+    height: 105px;
+    width: auto;
+}
+
+.client-logo1 {
+    height: 80px;
+    width: auto;
+}
+
+.img-fluids {
+    max-width: 50px;
+    height: 47px;
+}
+
+.client-logo-wrap {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    position: absolute;
+    top: -70px;
+}
+
+.client-heading-wrap {
+    border: 4px solid #646464;
+    padding: 50px 50px 70px;
+    position: relative;
+}
+
+#audit_alert {
+    display: none;
+}
+
+.glow {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        color: lightblue;
+        text-shadow: 5px 5px 30px lightblue;
+    }
+    20% {
+        color: #45aaf2;
+        text-shadow: 5px 5px 30px #45aaf2;
+    }
+    40% {
+        color: #2d98da;
+        text-shadow: 5px 5px 30px #2d98da;
+    }
+    60% {
+        color: #4b7bec;
+        text-shadow: 5px 5px 30px #2d98da;
+    }
+    80% {
+        color: #3867d6;
+        text-shadow: 5px 5px 30px #3867d6;
+    }
+    100% {
+        color: lightblue;
+        text-shadow: 5px 5px 30px lightblue;
+    }
+}
